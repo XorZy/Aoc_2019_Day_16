@@ -31,7 +31,6 @@ namespace Day_16
 
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
 
             var input = File.ReadAllText("input").Select(x => (byte)(x - '0')).ToArray();
 
